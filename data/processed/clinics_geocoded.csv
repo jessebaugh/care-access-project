@@ -1,0 +1,9 @@
+name,address,city,state,type,phone,full_address,latitude,longitude
+Lifelong,210 S Lucile St,Seattle,WA,community_org,206-957-1600,"210 S Lucile St, Seattle, WA",47.5536026,-122.3317122
+Harborview Madison Clinic,908 Jefferson St,Seattle,WA,hiv_care,206-520-5000,"908 Jefferson St, Seattle, WA",47.6054597,-122.3238739
+Neighborcare Health,303 17th Ave E,Seattle,WA,Primary Care,206-548-5710,"303 17th Ave E, Seattle, WA",47.620676,-122.3102418
+Country Doctor,500 19th Ave E,Seattle,WA,Primary Care,206-299-1900,"500 19th Ave E, Seattle, WA",47.623424,-122.30698
+Harborview Sexual Health Clinic,908 Jefferson St,Seattle,WA,Testing,206-744-2594,"908 Jefferson St, Seattle, WA",47.6054597,-122.3238739
+Public Health STI Clinic,401 5th Ave,Seattle,WA,Testing,206-744-3590,"401 5th Ave, Seattle, WA",47.6025411,-122.3285812
+Gay City Wellness Center,400 E Pine St,Seattle,WA,Testing,206-860-6969,"400 E Pine St, Seattle, WA",47.6154296,-122.3265646
+Madison Clinic,325 9th Ave,Seattle,WA,Testing,206-744-5100,"325 9th Ave, Seattle, WA",47.6040479,-122.3241759

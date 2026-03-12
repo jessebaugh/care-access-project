@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_96ab6dd3a0a76c50b992c358a37e2461 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_96ab6dd3a0a76c50b992c358a37e2461" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_96ab6dd3a0a76c50b992c358a37e2461 = L.map(
+                "map_96ab6dd3a0a76c50b992c358a37e2461",
+                {
+                    center: [47.6062, -122.3321],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a0e11d8d7dbba82fa797eb765facb359 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a0e11d8d7dbba82fa797eb765facb359.addTo(map_96ab6dd3a0a76c50b992c358a37e2461);
+        
+    
+            var marker_774dc0ba8ef946006e950a2de1d354d9 = L.marker(
+                [47.5536026, -122.3317122],
+                {
+}
+            ).addTo(map_96ab6dd3a0a76c50b992c358a37e2461);
+        
+    
+            var icon_81a8ffeb726aebabb50877a19baa0ca5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ed803d9c98281b52cb19be710125a01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f39ef95a3cff221f3538abc408aa30c3 = $(`<div id="html_f39ef95a3cff221f3538abc408aa30c3" style="width: 100.0%; height: 100.0%;">Lifelong<br>Type: community_org<br>Phone: 206-957-1600</div>`)[0];
+                popup_3ed803d9c98281b52cb19be710125a01.setContent(html_f39ef95a3cff221f3538abc408aa30c3);
+            
+        
+
+        marker_774dc0ba8ef946006e950a2de1d354d9.bindPopup(popup_3ed803d9c98281b52cb19be710125a01)
+        ;
+
+        
+    
+    
+                marker_774dc0ba8ef946006e950a2de1d354d9.setIcon(icon_81a8ffeb726aebabb50877a19baa0ca5);
+            
+    
+            var marker_c22ebae5f81f7af76a626eb3490d13e7 = L.marker(
+                [47.6054597, -122.3238739],
+                {
+}
+            ).addTo(map_96ab6dd3a0a76c50b992c358a37e2461);
+        
+    
+            var icon_62fc5c5cdec3a9a8f984ed5e26aa7b78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a3427171a0831648e001bea64344c68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1781708fdce678123842d2f26d09c97 = $(`<div id="html_f1781708fdce678123842d2f26d09c97" style="width: 100.0%; height: 100.0%;">Harborview Madison Clinic<br>Type: hiv_care<br>Phone: 206-520-5000</div>`)[0];
+                popup_1a3427171a0831648e001bea64344c68.setContent(html_f1781708fdce678123842d2f26d09c97);
+            
+        
+
+        marker_c22ebae5f81f7af76a626eb3490d13e7.bindPopup(popup_1a3427171a0831648e001bea64344c68)
+        ;
+
+        
+    
+    
+                marker_c22ebae5f81f7af76a626eb3490d13e7.setIcon(icon_62fc5c5cdec3a9a8f984ed5e26aa7b78);
+            
+    
+            var marker_500bf9081025c753902f4c12008e0565 = L.marker(
+                [47.620676, -122.3102418],
+                {
+}
+            ).addTo(map_96ab6dd3a0a76c50b992c358a37e2461);
+        
+    
+            var icon_b54eabbe25632d85a2632a6c0faa4c4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c22c619709ef71696286187b88700f93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43d250023a17ae7508f2193f44d5231c = $(`<div id="html_43d250023a17ae7508f2193f44d5231c" style="width: 100.0%; height: 100.0%;">Neighborcare Health<br>Type: Primary Care<br>Phone: 206-548-5710</div>`)[0];
+                popup_c22c619709ef71696286187b88700f93.setContent(html_43d250023a17ae7508f2193f44d5231c);
+            
+        
+
+        marker_500bf9081025c753902f4c12008e0565.bindPopup(popup_c22c619709ef71696286187b88700f93)
+        ;
+
+        
+    
+    
+                marker_500bf9081025c753902f4c12008e0565.setIcon(icon_b54eabbe25632d85a2632a6c0faa4c4e);
+            
+    
+            var marker_a4ad7c21d996d87ab03bd2e4359374c5 = L.marker(
+                [47.623424, -122.30698],
+                {
+}
+            ).addTo(map_96ab6dd3a0a76c50b992c358a37e2461);
+        
+    
+            var icon_3f65ea40af9d7fc7954e9bb81690c370 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_514e7e8d466b21090ab17f22660c6966 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_583226cf73f7021432c35c2516de6c72 = $(`<div id="html_583226cf73f7021432c35c2516de6c72" style="width: 100.0%; height: 100.0%;">Country Doctor<br>Type: Primary Care<br>Phone: 206-299-1900</div>`)[0];
+                popup_514e7e8d466b21090ab17f22660c6966.setContent(html_583226cf73f7021432c35c2516de6c72);
+            
+        
+
+        marker_a4ad7c21d996d87ab03bd2e4359374c5.bindPopup(popup_514e7e8d466b21090ab17f22660c6966)
+        ;
+
+        
+    
+    
+                marker_a4ad7c21d996d87ab03bd2e4359374c5.setIcon(icon_3f65ea40af9d7fc7954e9bb81690c370);
+            
+    
+            var marker_fde6e82e24c530bd9ccf0fc1da566546 = L.marker(
+                [47.6054597, -122.3238739],
+                {
+}
+            ).addTo(map_96ab6dd3a0a76c50b992c358a37e2461);
+        
+    
+            var icon_752b5a2e60395c0254a5ecf36b154f85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af6d6f4616c7ae823f8933c222a3074e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3508b25866f55936e0d1e0eeffc4d578 = $(`<div id="html_3508b25866f55936e0d1e0eeffc4d578" style="width: 100.0%; height: 100.0%;">Harborview Sexual Health Clinic<br>Type: Testing<br>Phone: 206-744-2594</div>`)[0];
+                popup_af6d6f4616c7ae823f8933c222a3074e.setContent(html_3508b25866f55936e0d1e0eeffc4d578);
+            
+        
+
+        marker_fde6e82e24c530bd9ccf0fc1da566546.bindPopup(popup_af6d6f4616c7ae823f8933c222a3074e)
+        ;
+
+        
+    
+    
+                marker_fde6e82e24c530bd9ccf0fc1da566546.setIcon(icon_752b5a2e60395c0254a5ecf36b154f85);
+            
+    
+            var marker_c3c2add237d469c26c2b405786938559 = L.marker(
+                [47.6025411, -122.3285812],
+                {
+}
+            ).addTo(map_96ab6dd3a0a76c50b992c358a37e2461);
+        
+    
+            var icon_be1be1a1863132c37dcc46a40fc8d972 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39d66a0e248b56b540b2b617de8ae811 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb60311551e2f466ec432af65eeaa4c3 = $(`<div id="html_bb60311551e2f466ec432af65eeaa4c3" style="width: 100.0%; height: 100.0%;">Public Health STI Clinic<br>Type: Testing<br>Phone: 206-744-3590</div>`)[0];
+                popup_39d66a0e248b56b540b2b617de8ae811.setContent(html_bb60311551e2f466ec432af65eeaa4c3);
+            
+        
+
+        marker_c3c2add237d469c26c2b405786938559.bindPopup(popup_39d66a0e248b56b540b2b617de8ae811)
+        ;
+
+        
+    
+    
+                marker_c3c2add237d469c26c2b405786938559.setIcon(icon_be1be1a1863132c37dcc46a40fc8d972);
+            
+    
+            var marker_367d26b7f7295acf33e3ea9f62a27d2c = L.marker(
+                [47.6154296, -122.3265646],
+                {
+}
+            ).addTo(map_96ab6dd3a0a76c50b992c358a37e2461);
+        
+    
+            var icon_1b67f8399cfb6e605da7e43a59b5dd19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e75a34666962ec4b3110ac63c668113 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b7f72c80032411cbb476e7e5716fc2c = $(`<div id="html_4b7f72c80032411cbb476e7e5716fc2c" style="width: 100.0%; height: 100.0%;">Gay City Wellness Center<br>Type: Testing<br>Phone: 206-860-6969</div>`)[0];
+                popup_4e75a34666962ec4b3110ac63c668113.setContent(html_4b7f72c80032411cbb476e7e5716fc2c);
+            
+        
+
+        marker_367d26b7f7295acf33e3ea9f62a27d2c.bindPopup(popup_4e75a34666962ec4b3110ac63c668113)
+        ;
+
+        
+    
+    
+                marker_367d26b7f7295acf33e3ea9f62a27d2c.setIcon(icon_1b67f8399cfb6e605da7e43a59b5dd19);
+            
+    
+            var marker_ac0653ad81543860a4c6329e5ec292ca = L.marker(
+                [47.6040479, -122.3241759],
+                {
+}
+            ).addTo(map_96ab6dd3a0a76c50b992c358a37e2461);
+        
+    
+            var icon_bf3c7e3f13339471199a9ddea4681358 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "plus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9de65ee0830f46aae01b452df632ae52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_441017cf2e83bc20766f373e869a7720 = $(`<div id="html_441017cf2e83bc20766f373e869a7720" style="width: 100.0%; height: 100.0%;">Madison Clinic<br>Type: Testing<br>Phone: 206-744-5100</div>`)[0];
+                popup_9de65ee0830f46aae01b452df632ae52.setContent(html_441017cf2e83bc20766f373e869a7720);
+            
+        
+
+        marker_ac0653ad81543860a4c6329e5ec292ca.bindPopup(popup_9de65ee0830f46aae01b452df632ae52)
+        ;
+
+        
+    
+    
+                marker_ac0653ad81543860a4c6329e5ec292ca.setIcon(icon_bf3c7e3f13339471199a9ddea4681358);
+            
+    
+            tile_layer_a0e11d8d7dbba82fa797eb765facb359.addTo(map_96ab6dd3a0a76c50b992c358a37e2461);
+        
+    
+                marker_774dc0ba8ef946006e950a2de1d354d9.setIcon(icon_81a8ffeb726aebabb50877a19baa0ca5);
+            
+    
+                marker_c22ebae5f81f7af76a626eb3490d13e7.setIcon(icon_62fc5c5cdec3a9a8f984ed5e26aa7b78);
+            
+    
+                marker_500bf9081025c753902f4c12008e0565.setIcon(icon_b54eabbe25632d85a2632a6c0faa4c4e);
+            
+    
+                marker_a4ad7c21d996d87ab03bd2e4359374c5.setIcon(icon_3f65ea40af9d7fc7954e9bb81690c370);
+            
+    
+                marker_fde6e82e24c530bd9ccf0fc1da566546.setIcon(icon_752b5a2e60395c0254a5ecf36b154f85);
+            
+    
+                marker_c3c2add237d469c26c2b405786938559.setIcon(icon_be1be1a1863132c37dcc46a40fc8d972);
+            
+    
+                marker_367d26b7f7295acf33e3ea9f62a27d2c.setIcon(icon_1b67f8399cfb6e605da7e43a59b5dd19);
+            
+    
+                marker_ac0653ad81543860a4c6329e5ec292ca.setIcon(icon_bf3c7e3f13339471199a9ddea4681358);
+            
+</script>
+</html>
