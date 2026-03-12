@@ -1,2 +1,3 @@
-# hiv-care-access-seattle
-Open-source analysis of transportation barriers to HIV testing, PrEP access, and HIV care in Seattle/King County, including travel-time modeling, equity metrics, and a public dashboard.
+# care-access-project
+About This Project
+This project analyzes transportation barriers to essential healthcare services in Seattle/King County, with a focus on how travel time affects populations at increased risk, as defined by public‑health agencies such as the CDC and HRSA. These groups often include individuals with limited transportation access, low‑income communities, racial and ethnic minority groups, LGBTQ+ individuals, and people living in medically underserved areas. By modeling travel times, mapping service locations, and identifying geographic gaps, this project supports data‑driven strategies to improve equitable access to care.
